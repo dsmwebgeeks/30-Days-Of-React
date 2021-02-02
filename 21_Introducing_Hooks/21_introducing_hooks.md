@@ -18,7 +18,7 @@
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_21.jpg)
 
-- [Introducing React Hook](#introducing-react-hook)
+- [Introduction to React Hooks](#introducing-react-hook)
   - [Basic Hooks](#basic-hooks)
     - [State Hook](#state-hook)
     - [Effect Hook](#effect-hook)
@@ -27,13 +27,11 @@
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
 
-# Introducing React Hook
+# Introduction to React Hooks
 
-In the previous, section you have learned how to use React with hooks which is the older version. Currently, hooks has been introduced to React.
+In the previous lessons we wrote our components as classes. In order to use React hooks we need to write functional components instead. The transition from class based components to functional components is really quite easy. And, it more closely resembles vanilla JavaScript making your components more readable.
 
-Hooks are a new addition in React 16.8. They allow you use state, life cycle methods and other React features without writing a class component. If we are using hooks we can have only a functional component in the entire application. For more detail explanation you check [React documentation](https://reactjs.org/docs/hooks-reference.html).
-
-Different hooks have been introduced to React:Basic hooks and additional hooks
+Hooks are a new feature in React 16.8. They allow us to use state, life cycle methods and other React features without writing a class component. Hooks are also backwards-compatible. For more detail explanation check the [React documentation](https://reactjs.org/docs/hooks-reference.html).
 
 ## Basic Hooks
 
@@ -44,6 +42,8 @@ The basic hooks are:
 - useContext
 
 ### State Hook
+
+Examples using `useState`: [CodeSandBox](https://codesandbox.io/s/keen-leavitt-cj500?file=/src/App.js).
 
 Using hooks we can access state without writing a class based component. Let's use the same example we used for class based components on day 8.
 
